@@ -1,0 +1,104 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.raleway-<uniquifier> {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+html {
+	font-family: "Raleway", serif;
+}
+ul{
+	list-style: none;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+h1{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	font-weight: 20;
+	color: #000000;
+}
+.main{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.bird {
+	display: flex;
+	align-items: center;
+}
+.container {
+	max-width: 1130px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+}
+.produst_btn {
+	border: 1px solid #00FF00;
+	color: #008000 ;
+	padding: 10px 15px;
+}
+.produst_btn:hover{
+	color: #ADFF2F;
+	border: 1px solid #32CD32;
+}
+.bird_text_titer{
+	font-size: 60px;
+	width: 540px;
+	margin-bottom: 15px;
+	font-weight: 500;
+}
+.bird_text_titer_mod {
+	color: #32CD32;
+}
+.bird_text_inner{
+	color: #86928B;
+	font-weight: 500;
+	font-size: 18px;
+	margin-bottom: 40px;
+}
+.reproduction_header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.reproduction_header_btn{
+	display: flex;
+	gap: 40px;
+	font-size: 20px;
+}
+.reproduction_header_btn_list_link{
+	background-color: #90EE90;
+	color: #2C2D35;
+	padding: 10px;
+	border-radius: 20px;
+}
+.reproduction_header_btn_list_link:hover{
+	color: #F4F6F5;
+	background-color: #008500;
+	transition: color 0.5s ease, background-color 0.5s ease;
+}
+.reproduction_header_titler{
+	font-size: 30px;
+
+}
